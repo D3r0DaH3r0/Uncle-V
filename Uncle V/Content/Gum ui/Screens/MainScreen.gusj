@@ -1,0 +1,1061 @@
+{
+  "Name": "MainScreen",
+  "States": [
+    {
+      "Name": "Default",
+      "Variables": [
+        {
+          "Name": "ContainerInstance1.ClipsChildren",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "ContainerInstance1.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 63.5417
+        },
+        {
+          "Name": "ContainerInstance1.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "ContainerInstance1.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 23.75
+        },
+        {
+          "Name": "ContainerInstance1.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "ContainerInstance1.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "ContainerInstance1.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "ContainerInstance1.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 4
+        },
+        {
+          "Name": "ContainerInstance1.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 88.5
+        },
+        {
+          "Name": "ContainerInstance1.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "ContainerInstance1.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Difficulty drop.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "ContainerInstance1"
+        },
+        {
+          "Name": "Difficulty drop.Visible",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Difficulty drop.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Difficulty drop.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Difficulty drop.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Difficulty drop.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Difficulty drop.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Difficulty drop.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Difficulty drop.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Difficulty drop.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Difficulty.Blue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Difficulty.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "IsFont": true,
+          "ValueAsString": "C:\\Users\\mendy\\Desktop\\Comp sci project\\Uncle V\\Uncle V\\Content\\Gum ui\\Fonts\\GrapeSoda.ttf"
+        },
+        {
+          "Name": "Difficulty.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 24
+        },
+        {
+          "Name": "Difficulty.Green",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Difficulty.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 8
+        },
+        {
+          "Name": "Difficulty.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "ContainerInstance1"
+        },
+        {
+          "Name": "Difficulty.Red",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Difficulty.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Difficulty"
+        },
+        {
+          "Name": "Difficulty.UseFontSmoothing",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "Difficulty.Visible",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Difficulty.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 87
+        },
+        {
+          "Name": "Difficulty.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 49
+        },
+        {
+          "Name": "Difficulty.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": -22
+        },
+        {
+          "Name": "Easy.ListItemDisplayText",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Easy"
+        },
+        {
+          "Name": "Easy.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "ListBoxInstance.InnerPanelInstance"
+        },
+        {
+          "Name": "Easy.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 50
+        },
+        {
+          "Name": "Easy.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Hard.ListItemDisplayText",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Hard"
+        },
+        {
+          "Name": "Hard.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "ListBoxInstance.InnerPanelInstance"
+        },
+        {
+          "Name": "Hard.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 50
+        },
+        {
+          "Name": "Hard.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Hard.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Hard.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 1
+        },
+        {
+          "Name": "ListBoxInstance.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 84
+        },
+        {
+          "Name": "ListBoxInstance.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "ListBoxInstance.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Difficulty drop.ListBoxInstance.InnerPanelInstance"
+        },
+        {
+          "Name": "ListBoxInstance.Visible",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "ListBoxInstance.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 100
+        },
+        {
+          "Name": "ListBoxInstance.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "ListBoxInstance.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 28
+        },
+        {
+          "Name": "Normal.ListItemDisplayText",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Normal"
+        },
+        {
+          "Name": "Normal.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "ListBoxInstance.InnerPanelInstance"
+        },
+        {
+          "Name": "Normal.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 50
+        },
+        {
+          "Name": "Normal.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start Background.Blue2",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 139
+        },
+        {
+          "Name": "Start Background.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 218
+        },
+        {
+          "Name": "Start Background.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 245
+        },
+        {
+          "Name": "Start Background.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 167
+        },
+        {
+          "Name": "Start Background.Green2",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 191
+        },
+        {
+          "Name": "Start Background.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start Background.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start Background.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Start Background.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Start container"
+        },
+        {
+          "Name": "Start Background.Red2",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 41
+        },
+        {
+          "Name": "Start Background.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start Background.UseGradient",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Start Background.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start Background.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start Background.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start Background.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start Background.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Start Background.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start Background.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start Background.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Start button.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start button.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start button.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Start Background"
+        },
+        {
+          "Name": "Start button.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": ""
+        },
+        {
+          "Name": "Start button.Visible",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Start button.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start button.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start button.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start button.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start button.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Start button.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start button.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start button.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Start container.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 12.5
+        },
+        {
+          "Name": "Start container.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start container.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 25
+        },
+        {
+          "Name": "Start container.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start container.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start container.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start container.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Start container.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": -45.5
+        },
+        {
+          "Name": "Start container.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start container.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Start text.Blue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 187
+        },
+        {
+          "Name": "Start text.DropshadowAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 255
+        },
+        {
+          "Name": "Start text.DropshadowOffsetY",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 5
+        },
+        {
+          "Name": "Start text.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "IsFont": true,
+          "ValueAsString": "C:\\Users\\mendy\\Desktop\\Comp sci project\\Uncle V\\Uncle V\\Content\\Gum ui\\Fonts\\KiwiSoda.ttf"
+        },
+        {
+          "Name": "Start text.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 46
+        },
+        {
+          "Name": "Start text.Green",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 229
+        },
+        {
+          "Name": "Start text.HasDropshadow",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Start text.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start text.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start text.HorizontalAlignment",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start text.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Start Background"
+        },
+        {
+          "Name": "Start text.Red",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 248
+        },
+        {
+          "Name": "Start text.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "START "
+        },
+        {
+          "Name": "Start text.UseFontSmoothing",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "Start text.VerticalAlignment",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start text.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start text.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Start text.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start text.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start text.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Start text.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Start text.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Start text.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Tips background.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 218
+        },
+        {
+          "Name": "Tips background.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 245
+        },
+        {
+          "Name": "Tips background.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 167
+        },
+        {
+          "Name": "Tips background.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 304
+        },
+        {
+          "Name": "Tips background.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Tips background.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips background.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 155
+        },
+        {
+          "Name": "Tips background.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips background.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips background.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips background.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips background.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Tips background.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 5
+        },
+        {
+          "Name": "Tips text.Blue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips text.DropshadowBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 187
+        },
+        {
+          "Name": "Tips text.DropshadowGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 229
+        },
+        {
+          "Name": "Tips text.DropshadowRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 248
+        },
+        {
+          "Name": "Tips text.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "IsFont": true,
+          "ValueAsString": "C:\\Users\\mendy\\Desktop\\Comp sci project\\Uncle V\\Uncle V\\Content\\Gum ui\\Fonts\\GrapeSoda.ttf"
+        },
+        {
+          "Name": "Tips text.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 32
+        },
+        {
+          "Name": "Tips text.Green",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips text.HasDropshadow",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Tips text.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips text.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Tips text.HorizontalAlignment",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Tips text.LocalizeText",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Tips text.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Tips background"
+        },
+        {
+          "Name": "Tips text.Red",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips text.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Tips\nFind Books\nBe Quick\nBe Quiet\nWASD: move\nCtrl : fast\nShift :slow\nE : interact\nEsc: pause"
+        },
+        {
+          "Name": "Tips text.UseFontSmoothing",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "Tips text.VerticalAlignment",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips text.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips text.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Tips text.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips text.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Tips text.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Tips text.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Tips text.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Tips text.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Title card.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 18.75
+        },
+        {
+          "Name": "Title card.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Title card.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 37.5
+        },
+        {
+          "Name": "Title card.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        }
+      ],
+      "VariableLists": []
+    }
+  ],
+  "Categories": [],
+  "Instances": [
+    {
+      "Name": "Title card",
+      "BaseType": "Title",
+      "Locked": true
+    },
+    {
+      "Name": "Tips background",
+      "BaseType": "Rectangle",
+      "Locked": true
+    },
+    {
+      "Name": "Tips text",
+      "BaseType": "Text",
+      "Locked": true
+    },
+    {
+      "Name": "Start container",
+      "BaseType": "Container",
+      "Locked": true
+    },
+    {
+      "Name": "Start Background",
+      "BaseType": "Rectangle",
+      "Locked": true
+    },
+    {
+      "Name": "Start button",
+      "BaseType": "Controls/ButtonStandard"
+    },
+    {
+      "Name": "Start text",
+      "BaseType": "Text",
+      "Locked": true
+    },
+    {
+      "Name": "ContainerInstance1",
+      "BaseType": "Container"
+    },
+    {
+      "Name": "Difficulty",
+      "BaseType": "Text",
+      "Locked": true
+    },
+    {
+      "Name": "Difficulty drop",
+      "BaseType": "Controls/ComboBox"
+    },
+    {
+      "Name": "ListBoxInstance",
+      "BaseType": "Controls/ListBox"
+    },
+    {
+      "Name": "Easy",
+      "BaseType": "Controls/ListBoxItem"
+    },
+    {
+      "Name": "Normal",
+      "BaseType": "Controls/ListBoxItem"
+    },
+    {
+      "Name": "Hard",
+      "BaseType": "Controls/ListBoxItem"
+    }
+  ],
+  "Events": [],
+  "Behaviors": [],
+  "VariablesHiddenFromInstances": []
+}

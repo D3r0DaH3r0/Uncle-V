@@ -1,0 +1,27 @@
+{
+  "TreeViewState": {
+    "ExpandedNodes": [
+      "Screens",
+      "Screens/MainScreen",
+      "Screens/MainScreen/Start container",
+      "Screens/MainScreen/Start container/Start Background",
+      "Screens/MainScreen/Start container/Start Background/Start text",
+      "Screens/MainScreen/ContainerInstance1",
+      "Screens/MainScreen/ContainerInstance1/Difficulty",
+      "Screens/MainScreen/ContainerInstance1/Difficulty drop",
+      "Screens/MainScreen/ContainerInstance1/Difficulty drop/ListBoxInstance",
+      "Screens/MainScreen/ContainerInstance1/Difficulty drop/ListBoxInstance/Easy",
+      "Screens/MainScreen/ContainerInstance1/Difficulty drop/ListBoxInstance/Normal",
+      "Screens/MainScreen/ContainerInstance1/Difficulty drop/ListBoxInstance/Hard",
+      "Components",
+      "Components/Controls",
+      "Components/Controls/ListBox",
+      "Components/Controls/ListBox/ClipAndScrollContainer",
+      "Components/Styles",
+      "Components/Styles/Colors",
+      "Components/Styles/TextStyles",
+      "Components/Title",
+      "Components/Title/RectangleInstance"
+    ]
+  }
+}
